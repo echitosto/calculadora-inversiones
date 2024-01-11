@@ -13,8 +13,8 @@ Este proyecto es una aplicación en Python diseñada para realizar un seguimient
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/tu_usuario/investment-portfolio-tracker.git
-
+   git clone https://github.com/echitosto/calculadora-inversiones.git
+   
 2. Instala las dependencias
 
    ```bash
