@@ -14,7 +14,7 @@ def calculate_profit(total):
     sum_dolares = 0
     dolar_mep = dolarapi.get_mep()
     dolar_blue = dolarapi.get_blue()
-    mayor_venta = max(dolar_mep, dolar_blue)
+    mayor_venta = min(dolar_mep, dolar_blue)
     # Calculate the amount of dollars those could've been
     with open(FILE, 'r') as file:
         for line in file:
